@@ -1,0 +1,20 @@
+/* pages */
+
+/* Desktop screen - 1440px */
+@import url("./pages/index/desktop.css");
+
+/* mobile screen - 375px */
+@import url("./pages/index/mobile.css");
+
+/* utilities */
+@import url("./others/utilities.css");
+@import url("./others/variables.css");
+
+* > * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
