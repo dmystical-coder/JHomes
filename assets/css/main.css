@@ -18,3 +18,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 0 1.25rem 2.5rem;
+}
+
+.hidden {
+  display: none;
+}

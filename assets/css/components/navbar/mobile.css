@@ -1,0 +1,10 @@
+.header__navbar{
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar .logo::before{
+    content: url('../../../images/mobile/logo_mobile.png');
+}
